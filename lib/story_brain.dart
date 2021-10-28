@@ -40,6 +40,10 @@ class StoryBrain {
   String getChoice1() {
     return _storyData[0].choice1;
   }
+
+  String getChoice2() {
+    return _storyData[0].choice2;
+  }
 }
 //TODO: Step 6 - import the story.dart file into this file.
 
